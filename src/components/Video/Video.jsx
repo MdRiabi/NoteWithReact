@@ -1,9 +1,10 @@
-import Video from './Video.css';
 
-function Video(props) {
-    return (
-        <div></div>
-    );
+
+
+const Video = () => {
+  return (
+    <div>Video</div>
+  )
 }
 
-export default Video;
+export default Video
