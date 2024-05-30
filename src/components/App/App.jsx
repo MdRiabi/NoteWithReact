@@ -1,5 +1,7 @@
 import "../../fonts/fonts.css";
 
+import doubleQuote from "../../assets/double-quote.svg"
+
 import Page from '../Page/Page'
 import Testimonial from '../Testimonial/Testimonial'
 import Header from '../Header/Header'
@@ -24,7 +26,21 @@ const App = () => {
         <Hero />
     </Header>
     <Logos />
-    <Testimonial></Testimonial>
+    <Testimonial>
+      <h5 className="h5 testimonial__heading">
+      he real-time synchronization and AI-powered organization have made
+          our workflow more efficient than ever.
+      </h5>
+      <div className="testimonial__author-section">
+        <p className="text-reg testimonial__author">
+        Sarah Johnson
+        </p>
+        <p className="text-reg testimonial__organization">
+        TechSavvy Solutions
+        </p>
+      </div>
+      <img src={doubleQuote} alt="double Quote" className="testimonial__quotes" />
+    </Testimonial>
     <Features />
     <Testimonial></Testimonial>
     <Video />
