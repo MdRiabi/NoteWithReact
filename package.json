@@ -1,5 +1,5 @@
 {
-  "homepage": "http://MdRiabi.guthub.io/NoteWithReact",
+  "homepage": "https://mdriabi.github.io/NoteWithReact/",
   "name": "notewithreact",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
