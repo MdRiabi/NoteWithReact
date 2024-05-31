@@ -153,5 +153,6 @@ const logos = [
     },
   ];
   
+  
   export { logos, features, pricingData, faqItems };
   
